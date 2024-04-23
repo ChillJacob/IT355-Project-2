@@ -10,7 +10,7 @@ int main() {
     scanf("%s", user_input);
 
     // Incorrect:
-    printf(user_input); // This is used directly, vulnerable
+    //printf(user_input); // This is used directly, vulnerable
 
     // Correct:
     printf("\n%s was entered.\n", user_input);
